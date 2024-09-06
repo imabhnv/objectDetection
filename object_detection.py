@@ -6,12 +6,12 @@ nms_threshold = 0.2
 cap = cv2.VideoCapture(1)
 
 classNames = []
-classFile = 'D:/PROGRAMMING LANGUAGES/PYTHON/openCV python/New folder/coco.names'
+classFile = "__your_path__"
 with open(classFile, 'rt') as f:
     classNames = f.read().strip().split('\n')
 
-configPath = r'D:/PROGRAMMING LANGUAGES/PYTHON/openCV python/New folder/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
-weightsPath = r'D:/PROGRAMMING LANGUAGES/PYTHON/openCV python/New folder/frozen_inference_graph.pb'
+configPath = "__your_path__"
+weightsPath = "__your_path__"
 
 net=cv2.dnn.DetectionModel(weightsPath,configPath)
 net.setInputSize(320, 320)
