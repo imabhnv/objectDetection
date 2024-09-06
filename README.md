@@ -1,9 +1,6 @@
 # Object Detection using OpenCV and MobileNet-SSD
 
-<video width="600" controls>
-  <source src="./path/to/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch the video](https://www.linkedin.com/posts/abhinav-varshney-bb9bb7204_connections-computervision-python-activity-7237905832913297408-orR-?utm_source=share&utm_medium=member_desktop)
 
 ## Table of Contents
 
